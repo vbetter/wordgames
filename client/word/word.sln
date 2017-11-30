@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "word", "word.csproj", "{FE27AAE9-3E1C-96B1-FCE6-0EC8A8090A59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "word.Editor", "word.Editor.csproj", "{B90929BA-E4EE-7863-5C5C-3B811594D78A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE27AAE9-3E1C-96B1-FCE6-0EC8A8090A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE27AAE9-3E1C-96B1-FCE6-0EC8A8090A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE27AAE9-3E1C-96B1-FCE6-0EC8A8090A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE27AAE9-3E1C-96B1-FCE6-0EC8A8090A59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B90929BA-E4EE-7863-5C5C-3B811594D78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B90929BA-E4EE-7863-5C5C-3B811594D78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B90929BA-E4EE-7863-5C5C-3B811594D78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B90929BA-E4EE-7863-5C5C-3B811594D78A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
