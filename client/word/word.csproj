@@ -226,8 +226,16 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
     <Compile Include="Assets\Scripts\Configs\Configrestaurant.cs" />
     <Compile Include="Assets\Scripts\IBaseDataObject.cs" />
+    <Compile Include="Assets\Scripts\Logic\EnFontMgr.cs" />
+    <Compile Include="Assets\Scripts\Logic\MonoSingleton.cs" />
     <Compile Include="Assets\Scripts\Logic\Talk\UITalk.cs" />
     <Compile Include="Assets\Scripts\Logic\Talk\UITalkItem.cs" />
+    <Compile Include="Assets\Scripts\Logic\UIBase.cs" />
+    <Compile Include="Assets\Scripts\Logic\UIBaseBox.cs" />
+    <Compile Include="Assets\Scripts\Logic\UIEnFontBox.cs" />
+    <Compile Include="Assets\Scripts\Logic\UIMain.cs" />
+    <Compile Include="Assets\Scripts\Logic\UIScene.cs" />
+    <Compile Include="Assets\Scripts\Logic\Utils.cs" />
     <Compile Include="Assets\Scripts\Logic\input\UIEnglishInput.cs" />
   </ItemGroup>
   <ItemGroup>

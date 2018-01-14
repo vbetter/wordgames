@@ -6,14 +6,52 @@ public class UIEnFontBox : UIBaseBox {
 
     public int UID;
     public string ItemName = string.Empty;
-	// Use this for initialization
-	void Start () {
+
+    [SerializeField]
+    BoxCollider m_boxCollider;
+
+    bool m_isChoose = false;
+    public bool IsChoose
+    {
+        set
+        {
+            m_bgIcon.gameObject.SetActive(value);
+            m_isChoose = value;
+        }
+        get
+        {
+            return m_isChoose;
+        }
+    }
+
+    public Bounds bounds
+    {
+        get
+        {
+            return m_boxCollider.bounds;
+        }
+    }
+
+    [SerializeField]
+    UILabel m_LabelFont;
+    [SerializeField]
+    UISprite m_bgIcon;
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
-	// Update is called once per frame
-	void Update ()
+	public void Init(int uid,string itemName)
     {
-		
-	}
+        ItemName = itemName;
+        UID = uid;
+        m_LabelFont.text = ItemName;
+        IsChoose = false;
+    }
+
+    public void Clear()
+    {
+        IsChoose = false;
+    }
 }

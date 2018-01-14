@@ -17,9 +17,16 @@ public class UITalk : MonoBehaviour {
 		
 	}
 
+    public void Init(Configrestaurant item)
+    {
+        string talk = EnFontMgr.Instance.GetEncryptedStringByItem(item);
+        Init(talk, item.icon_name, item.isLeft);
+    }
+
     public void Init(string talk,string iconName,bool isLeft)
     {
-        if(m_talkLeft)
+        
+        if(isLeft)
         {
             m_talkLeft.gameObject.SetActive(true);
             m_talkLeft.Init(talk, iconName);
